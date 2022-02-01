@@ -104,6 +104,9 @@ main {
 }
 
 main article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding-inline: 4.4rem;
   padding-top: 4rem;
   margin: 0 auto;
