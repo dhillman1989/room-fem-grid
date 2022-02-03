@@ -77,7 +77,7 @@ p {
 .container.grid {
     display: grid;
     grid-template-columns: repeat(24, 1fr);
-    grid-template-rows: 66% 34%;
+    grid-template-rows: 70% 1fr;
     height: 100vh;
 }
 
