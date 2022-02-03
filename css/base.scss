@@ -2,6 +2,30 @@ $DarkGray: hsl(0, 0%, 63%);
 $Black: hsl(0, 0%, 0%);
 $White: hsl(0, 0%, 100%);
 $VeryDarkGray: hsl(0, 0%, 27%);
+@font-face {
+    font-family: 'spartan';
+    src: url('../fonts/Spartan/static/Spartan-Black.ttf');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'spartan';
+    src: url('../fonts/Spartan/static/Spartan-Bold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'spartan';
+    src: url('../fonts/Spartan/static/Spartan-Medium.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'spartan';
+    src: url('../fonts/Spartan/static/Spartan-Regular.ttf');
+    font-weight: 400;
+}
+
 *,
 *:before,
 *:after {
@@ -22,24 +46,25 @@ html {
 }
 
 body {
-    font-family: 'spartan', arial, sans-serif;
+    font-family: 'spartan', verdana, sans-serif;
     height: 100%;
 }
 
 h1 {
     font-size: 36px;
-    font-weight: 600;
     margin-bottom: 2rem;
+    font-weight: 800;
 }
 
 h2 {
     font-size: 14px;
+    letter-spacing: 3px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 p {
-    color: $DarkGray;
+    color: $Black;
     line-height: 20px;
     word-spacing: 1px;
     font-size: 12px
@@ -104,8 +129,7 @@ main {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-inline: 4.4rem;
-        padding-top: 4rem;
+        padding: 4rem 4.4rem 0 4.4rem;
         margin: 0 auto;
         grid-column-start: 1;
         grid-column-end: 11;
