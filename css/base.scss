@@ -16,8 +16,14 @@ $VeryDarkGray: hsl(0, 0%, 27%);
 
 @font-face {
     font-family: 'spartan';
-    src: url('../fonts/Spartan/static/Spartan-Medium.ttf');
+    src: url('../fonts/Spartan/static/Spartan-SemiBold.ttf');
     font-weight: 600;
+}
+
+@font-face {
+    font-family: 'spartan';
+    src: url('../fonts/Spartan/static/Spartan-Medium.ttf');
+    font-weight: 500;
 }
 
 @font-face {
